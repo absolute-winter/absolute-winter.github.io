@@ -24,10 +24,6 @@ body {
 /*----------Banner----------*/
 .banner {
 	height: 100vh;
-	/*display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;*/
 }
 
 #profilePicture {
@@ -56,7 +52,7 @@ body {
 /*----------About Me----------*/
 .aboutMe {
 	display: flex;
-	height: 50vh;
+	height: 20vw;
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
@@ -67,7 +63,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/*background-color: #575757;*/
 }
 
 #aboutMeRight{
@@ -89,14 +84,54 @@ body {
 	font-size: 2vw;
 }
 
-/*----------Anime Corner----------*/
-/*.animeCorner{
-
+/*----------Classes Styles----------*/
+.cornerHeading {
+	font-family: 'Marcellus SC', serif;
+	font-size: 3.5vw;
+	padding-left: 3%;
+	margin-top: 0;
+	margin-bottom: 0%;
+	background-color: black;
+	color: whitesmoke;
 }
 
-#animeCornerBackground {
+.topicCorner{
+	margin-bottom: 2%;
+}
+
+.cornerContent {
+	height: 45vw;
+	background-color: gray;
+}
+
+.cornerBackground {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40vw;
-}*/
+}
+
+.cornerContent{
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+}
+/*----------Anime Corner----------*/
+
+#animeContent{
+	background-image: url("./images/natsume2.jpg");
+}
+
+#mangaContent{
+	background-image: url("./images/mangaBG2.jpg");
+}
+
+#gameContent{
+	background-image: url("./images/gameBG.jpg");
+}
+
+#musicContent{
+	background-image: url("./images/musicBG2.jpg");
+}
